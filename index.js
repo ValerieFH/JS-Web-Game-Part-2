@@ -13,9 +13,6 @@ function newItem(url, left, bottom){
     item.addEventListener('click', function() {
         item.remove()
         addToInv(url)
-        // let inventoryItem = document.createElement('img')
-        // inventoryItem.src = url
-        // currentInventory.append(inventoryItem)
     })
 }
 
